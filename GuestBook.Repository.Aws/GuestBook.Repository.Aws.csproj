@@ -49,8 +49,8 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepositoryAwsModule.cs" />
-    <Compile Include="S3\GuestBookImageRepository.cs" />
-    <Compile Include="SimpleDb\GuestBookEntryRepository.cs" />
+    <Compile Include="GuestBookImageRepository.cs" />
+    <Compile Include="GuestBookEntryRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Xtremecode.Library\src\Xtremecode.Infrastructure\Xtremecode.Infrastructure.csproj">

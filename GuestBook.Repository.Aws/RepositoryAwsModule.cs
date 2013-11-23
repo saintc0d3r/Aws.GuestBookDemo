@@ -7,8 +7,8 @@ namespace GuestBook.Repository.Aws
     {
         public override void Load()
         {
-            Bind<IGuestBookEntryRepository>().To<SimpleDb.GuestBookEntryRepository>();
-            Bind<IGuestBookImageRepository>().To<S3.GuestBookImageRepository>();
+            Bind<IGuestBookEntryRepository>().To<GuestBookEntryRepository>();
+            Bind<IGuestBookImageRepository>().To<GuestBookImageRepository>();
         }
     }
 }
