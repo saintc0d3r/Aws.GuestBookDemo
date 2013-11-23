@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="webcontrollers" storage="d:\projects\aws\guestbookdemo\guestbook.integrationtest\webcontrollers\webcontrollers.orderedtest" id="9c099f61-b991-47c0-811b-583f06fa5ff4" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="5728d9b7-43ff-bd87-7eed-2dfa58ce88de" name="Can_Display_List_Of_Guest_Book_Items" storage="..\bin\debug\guestbook.integrationtest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="e8e5f67f-3378-9b83-e574-aad7011e727e" name="Should_Be_Able_To_Submit_Guest_Book_Entry" storage="..\bin\debug\guestbook.integrationtest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

@@ -1,0 +1,11 @@
+﻿@model Demo.GuestBook.Web.Models.GuestBookItemModel
+
+<div class="panel-item">
+    <hr/>
+    <div class="thumbnail-panel"><img src="@Model.ThumbnailUrl" alt="@Model.Name" width="240" /></div>
+    <div class="name-label-panel"><label class="name-label">@Model.Name</label></div>
+    <div class="says-label-panel"><label class="says-label">says</label> </div>
+    <div class="time-message-panel"><label class="time-message-label">@Model.MessageTimestamp.ToString()</label></div>
+    <br/>
+    <p><div class="message-label-panel"><label class="message-label">"@Model.Comment"</label></div></p>
+</div>

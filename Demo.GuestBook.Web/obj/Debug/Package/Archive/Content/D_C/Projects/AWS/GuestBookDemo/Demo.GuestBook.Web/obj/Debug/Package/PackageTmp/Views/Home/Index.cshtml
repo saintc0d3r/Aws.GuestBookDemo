@@ -1,0 +1,31 @@
+﻿@using System.Web.Mvc.Html
+@model GuestBook.Web.Controllers.PresentationModels.GuestBookEntryModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<script type="text/javascript" src="~/Scripts/Application/Infrastructure/Notification.js"></script>
+<script type="text/javascript" src="~/Scripts/Application/Index.js"></script>
+
+<h2>AWS GuestBook</h2><br/><br/>
+@using (Html.BeginForm("Submit", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.EditorForModel()    
+    <label for="PhotoPreview">Photo Preview</label>
+    <p><output id="image-box"></output></p>
+    <input id="imageFileUpload" name="imageFileUpload" type="file" accept="image/*" value="Browse..."/>
+    <p><input type="submit" value="Submit"/></p>
+    @Html.ValidationSummary()
+    foreach (var guestBookItem in ViewBag.GuestBookEntries)
+    {
+        RenderPartialExtensions.RenderPartial(Html, "_GuestBookItem", guestBookItem);
+    }
+}
+@if ((ViewBag.SubmitResponse != null) && (ViewBag.SubmitResponse.IsSuccess))
+{
+    <script type="text/javascript">
+        var notification = new Notification();
+        notification.notify('@ViewBag.SubmitResponse.Message', 4000, 1000, 'centre', 'bottom');
+    </script>
+}

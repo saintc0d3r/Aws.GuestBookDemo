@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>StudioDonder.MvcContrib.Mvc4.WatiN</id>
+    <version>3.0.0.99</version>
+    <title>StudioDonder.MvcContrib.Mvc4.WatiN</title>
+    <authors>Outercurve Foundation, ErikSchierboom</authors>
+    <owners>Outercurve Foundation, ErikSchierboom</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MvcContrib was designed to add functionality and ease-of-use to Microsoft's ASP.NET MVC Framework, MVC Contrib is useful for developers looking to develop and test UI elements on top of the ASP.NET MVC framework.
+        The TestHelpers.WatiN library includes a series of helpers to streamline the use of WatiN for browser-based testing.
+		
+   Note: this is a fork of the MvcContrib project that is suited for working with ASP.NET MVC 4.</description>
+    <summary>MvcContrib was designed to add functionality and ease-of-use to Microsoft's ASP.NET MVC Framework, MVC Contrib is useful for developers looking to develop and test UI elements on top of the ASP.NET MVC framework.
+        The TestHelpers.WatiN library includes a series of helpers to streamline the use of WatiN for browser-based testing.</summary>
+    <releaseNotes />
+    <copyright />
+    <language>en-US</language>
+    <dependencies>
+      <dependency id="StudioDonder.MvcContrib.Mvc4.TestHelper" />
+    </dependencies>
+  </metadata>
+</package>
