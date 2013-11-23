@@ -1,6 +1,0 @@
-﻿<parameters>
-  <parameter name="IIS Web Application Name" defaultValue="Default Web Site/Demo.GuestBook.Web_deploy" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Projects\\AWS\\GuestBookDemo\\Demo\.GuestBook\.Web\\obj\\Debug\\Package\\PackageTmp$" />
-    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Projects\\AWS\\GuestBookDemo\\Demo\.GuestBook\.Web\\obj\\Debug\\Package\\PackageTmp$" />
-  </parameter>
-</parameters>
